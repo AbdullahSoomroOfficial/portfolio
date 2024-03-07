@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 
 function Header() {
   return (
-    <header className="container header__container">
+    <header className="container header__container" id="header">
       <h5>Hello I'm</h5>
       <h1>Abdullah</h1>
       <h5 className="text-light">Full Stack Web Developer</h5>
