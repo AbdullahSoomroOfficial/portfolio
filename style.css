@@ -85,7 +85,7 @@ body {
 }
 
 .grainy-background {
-  background-image: url("/images/grainy-background.png");
+  background-image: url("./images/grainy-background.png");
   background-size: 128px;
   background-repeat: repeat;
   position: fixed;
