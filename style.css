@@ -50,15 +50,12 @@ body {
   width: 80%;
   height: 80%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(
-    270deg,
-    #ff6ec4,
-    #4ecdc4,
-    #7873f5,
-    #7873f5,
-    #4ecdc4,
-    #ff6ec4
-  );
+  background-color: rgb(59, 207, 197);
+
+  /* linear-gradient( */
+  /* to right, */ /* #ff6ec4, */ /* #4ecdc4, */ /* #7873f5, */ /* #7873f5, */
+  /* #4ecdc4, */ /* #ff6ec4 */
+  /* ); */
   background-size: 200% 200%;
   /* animation: gradientAnimation 5s ease-in-out infinite; */
   border-radius: 200px;
