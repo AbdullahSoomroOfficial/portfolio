@@ -4,20 +4,7 @@
   --color-1: rgba(255, 255, 255, 0.2);
   --color-2: rgb(179, 194, 203);
   --color-3: rgb(209, 218, 224);
-  --color-4: rgb(230, 230, 230);
-  --color-5: rgb(0, 0, 0);
-  --color-6: rgb(3, 10, 0);
-  --color-7: rgb(86, 119, 64);
-  --color-8: rgb(13, 6, 0);
-  --color-9: rgb(154, 127, 101);
-  --color-10: rgb(0, 7, 13);
-  --color-11: rgb(42, 63, 76);
-  --color-12: rgb(12, 0, 18);
-  --color-13: rgb(70, 54, 79);
-  --color-14: rgb(15, 21, 31);
-  --color-15: rgb(37, 37, 35);
-  --color-16: hsl(0, 0%, 0%);
-  --color-17: hsl(0, 0%, 100%);
+  --color-4: rgb(15, 21, 31);
   --border-radius: 32px;
   --text-primary-color: var(--color-2);
   --font-size-base: 16px;
@@ -48,19 +35,12 @@ body {
   top: 50%;
   left: 50%;
   width: 80%;
-  height: 80%;
+  height: 100dvh;
   transform: translate(-50%, -50%);
-  background-color: rgb(59, 207, 197);
-
-  /* linear-gradient( */
-  /* to right, */ /* #ff6ec4, */ /* #4ecdc4, */ /* #7873f5, */ /* #7873f5, */
-  /* #4ecdc4, */ /* #ff6ec4 */
-  /* ); */
-  background-size: 200% 200%;
-  /* animation: gradientAnimation 5s ease-in-out infinite; */
+  background-color: rgba(59, 207, 197, 0.75);
   border-radius: 200px;
   filter: blur(200px);
-  opacity: 0.3;
+  opacity: 0.2;
   will-change: transform, opacity;
 }
 
@@ -186,7 +166,7 @@ section {
 }
 
 .project-card {
-  background-color: var(--color-14);
+  background-color: var(--color-4);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -204,9 +184,9 @@ section {
 
 .project-card-gradient {
   background-color: rgb(130, 201, 94);
-  filter: blur(100px);
-  border-radius: 1000px;
-  opacity: 0.15;
+  filter: blur(200px);
+  border-radius: 50%;
+  opacity: 0.1;
   position: absolute;
   right: 0;
   top: 0;
@@ -317,6 +297,7 @@ section {
   border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   padding: 4px 8px;
+  font-weight: 300;
 }
 
 .skill-container {
@@ -328,7 +309,7 @@ section {
 
 .pill {
   border: 1px solid rgba(255, 255, 255, 0.15);
-  background-color: var(--color-14);
+  background-color: var(--color-4);
   border-radius: var(--border-radius);
   padding: 8px 12px;
   width: min-content;
@@ -437,6 +418,10 @@ section {
     gap: calc(var(--gap) + 2rem);
     max-width: 1100px;
   }
+
+  /* .project-card-gradient {
+    display: block;
+  } */
 
   .about {
     font-size: 1.4rem;
