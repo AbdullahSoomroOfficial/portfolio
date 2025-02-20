@@ -60,10 +60,11 @@ body {
     #ff6ec4
   );
   background-size: 200% 200%;
-  animation: gradientAnimation 5s ease-in-out infinite;
+  /* animation: gradientAnimation 5s ease-in-out infinite; */
   border-radius: 200px;
-  filter: blur(200000000000px);
+  filter: blur(200px);
   opacity: 0.3;
+  will-change: transform, opacity;
 }
 
 @keyframes gradientAnimation {
@@ -214,6 +215,7 @@ section {
   top: 0;
   bottom: 0;
   left: 0;
+  display: none;
 }
 
 .project-card-left {
