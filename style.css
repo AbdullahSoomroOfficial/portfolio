@@ -312,6 +312,10 @@ section {
   font-weight: 200;
 }
 
+.experience .company-name {
+  font-style: italic;
+}
+
 .blog {
   display: flex;
   flex-direction: column;
